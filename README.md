@@ -18,14 +18,15 @@ Note : Add your OPENAI_API_KEY environment variable in your system before runnin
 
 
 # Steps for creating a docker image
+## Build your image
 
 `docker build --build-arg MY_SECRET_KEY=<Provide your OPENAI API Key here> -t chatpdf:latest . `
 
-# Tag your useraccount
+## Tag your useraccount
 
 `docker tag chatpdf:latest <username>/chatpdf:latest `
 
-# Push the image to your docker hub
+## Push the image to your docker hub
 
 `docker push reguh/chatpdf:latest  `
 
