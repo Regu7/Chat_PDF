@@ -12,10 +12,8 @@ from langchain.memory import ConversationSummaryBufferMemory
 from langchain.prompts import ChatPromptTemplate
 from langchain.vectorstores.chroma import Chroma
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from transformers import pipeline
 
 from utils.create_database import Create_Database
-from utils.preprocess import finalpreprocess
 
 warnings.filterwarnings("ignore")
 

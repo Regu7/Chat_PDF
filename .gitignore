@@ -3,3 +3,4 @@ chroma
 notebooks
 model_artifacts
 .vscode
+.env
