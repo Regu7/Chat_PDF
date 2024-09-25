@@ -28,7 +28,7 @@ Note : Add your OPENAI_API_KEY environment variable in your system before runnin
 
 ## Push the image to your docker hub
 
-`docker push reguh/chatpdf:latest  `
+```docker push reguh/chatpdf:latest  ```
 
 # Steps for running the app from docker image inside Ubuntu Machine
 
